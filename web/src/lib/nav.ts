@@ -154,6 +154,7 @@ export function getNavGroups(account: Account | null | undefined): NavGroup[] {
     {key: "/forms", label: i18next.t("general:Forms")},
     {key: "/syncers", label: i18next.t("general:Syncers")},
     {key: "/webhooks", label: i18next.t("general:Webhooks")},
+    {key: "/radius-clients", label: i18next.t("general:Radius Clients")},
     {key: "/webhook-events", label: i18next.t("general:Webhook Events")},
     {key: "/tickets", label: i18next.t("general:Tickets")},
   );
